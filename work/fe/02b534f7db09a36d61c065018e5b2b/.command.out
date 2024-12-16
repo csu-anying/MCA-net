@@ -1,0 +1,17 @@
+KFold:1
+KFold:2
+KFold:3
+KFold:4
+KFold:5
+KFold:6
+KFold:7
+KFold:8
+KFold:9
+KFold:10
+Running testing code...
+The evaluation of the model are as follows: 
+detection acc = 0.9389128201810116
+location-5 acc = 0.8374475343540986
+location-7 acc = 0.8115965058022905
+
+

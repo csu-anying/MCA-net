@@ -1,0 +1,31 @@
+2023-11-07 11:31:08.084877: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda/lib:/home/shiyinghong/software/OpenBLAS/lib
+2023-11-07 11:31:08.085015: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda/lib:/home/shiyinghong/software/OpenBLAS/lib
+2023-11-07 11:31:08.085026: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-11-07 11:31:12.900219: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2023-11-07 11:31:16.934099: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2023-11-07 11:31:16.934303: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: ubuntu
+2023-11-07 11:31:16.934326: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: ubuntu
+2023-11-07 11:31:16.936727: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 430.40.0
+2023-11-07 11:31:16.936841: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 430.40.0
+2023-11-07 11:31:16.936856: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 430.40.0
+2023-11-07 11:31:16.938426: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2023-11-07 11:31:17.045552: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2199980000 Hz
+2023-11-07 11:31:17.049240: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5581113c1df0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2023-11-07 11:31:17.049330: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Using TensorFlow backend.
+Running check and predict code...
+
+The Myocardial Infarction Predictions for patient 00181 are as follows:
+Detection: MI
+Location-5: ASMI other 
+Location-7: ASMI ILMI 
+
+The Myocardial Infarction Predictions for patient 0028 are as follows:
+File format is error! Expected file format: ".npy"
+
+The Myocardial Infarction Predictions for patient 00001 are as follows:
+Detection: NORM
+Location-5: NORM 
+Location-7: NORM 
+
+Done.

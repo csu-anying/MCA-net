@@ -1,0 +1,6 @@
+2023-11-07 11:31:00	1m 5s	focused_hilbert	OK	2115509a53167c172cc99c721c5eeeb0	76f385e4-981c-4996-b618-19549737d388	nextflow run main.nf --mode predict
+2023-11-29 13:58:58	5m 30s	romantic_turing	OK	2115509a53167c172cc99c721c5eeeb0	e7b8cc31-0878-4a4c-8051-6b8bc9dc416b	nextflow run main.nf --mode val
+2023-11-29 14:05:10	54.9s	gigantic_poisson	OK	2115509a53167c172cc99c721c5eeeb0	d3e44a3b-564d-4d4b-810b-8d7dba23486c	nextflow run main.nf --mode predict
+2024-11-15 09:36:36	59.2s	fabulous_snyder	OK	2115509a53167c172cc99c721c5eeeb0	6f688aac-e882-47fe-875a-dffe633985c3	nextflow run main.nf --mode predict
+2024-11-15 09:37:50	4m 28s	hopeful_magritte	OK	2115509a53167c172cc99c721c5eeeb0	ffbb64e8-c019-46fb-a97c-55b0b7844891	nextflow run main.nf --mode val
+2024-12-09 14:34:18	4m 36s	compassionate_curie	OK	2115509a53167c172cc99c721c5eeeb0	3f45ccad-7308-4845-bd34-adeec29748e6	nextflow run main.nf --mode val

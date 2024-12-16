@@ -1,0 +1,32 @@
+2024-12-09 14:34:22.373535: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda/lib:/home/shiyinghong/software/OpenBLAS/lib
+2024-12-09 14:34:22.373627: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda/lib:/home/shiyinghong/software/OpenBLAS/lib
+2024-12-09 14:34:22.373636: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-12-09 14:34:27.224754: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2024-12-09 14:34:27.248006: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2024-12-09 14:34:27.248110: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: ubuntu
+2024-12-09 14:34:27.248133: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: ubuntu
+2024-12-09 14:34:27.248375: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 430.40.0
+2024-12-09 14:34:27.248464: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 430.40.0
+2024-12-09 14:34:27.248487: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 430.40.0
+2024-12-09 14:34:27.249019: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2024-12-09 14:34:27.263545: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2199995000 Hz
+2024-12-09 14:34:27.265818: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c136ede8d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-12-09 14:34:27.265843: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Using TensorFlow backend.
+KFold:1
+KFold:2
+KFold:3
+KFold:4
+KFold:5
+KFold:6
+KFold:7
+KFold:8
+KFold:9
+KFold:10
+Running testing code...
+The evaluation of the model are as follows: 
+detection acc = 0.9389128201810116
+location-5 acc = 0.8374475343540986
+location-7 acc = 0.8115965058022905
+
+

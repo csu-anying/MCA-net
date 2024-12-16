@@ -1,0 +1,7 @@
+Running testing code...
+The evaluation of the model are as follows: 
+detection acc = 0.9389128201810116
+location-5 acc = 0.8374475343540986
+location-7 acc = 0.8115965058022905
+
+

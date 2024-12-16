@@ -1,0 +1,16 @@
+Running check and predict code...
+
+The Myocardial Infarction Predictions for patient 00181 are as follows:
+Detection: MI
+Location-5: ASMI other 
+Location-7: ASMI ILMI 
+
+The Myocardial Infarction Predictions for patient 0028 are as follows:
+File format is error! Expected file format: ".npy"
+
+The Myocardial Infarction Predictions for patient 00001 are as follows:
+Detection: NORM
+Location-5: NORM 
+Location-7: NORM 
+
+Done.
